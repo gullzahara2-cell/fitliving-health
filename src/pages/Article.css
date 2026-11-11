@@ -1,0 +1,16 @@
+.article { max-width: 760px; }
+.article h1 { font-size: 2.2rem; margin: 14px 0 8px; line-height: 1.25; }
+.article .meta { color: #6b7f77; font-size: .9rem; margin-bottom: 20px; }
+.article-img { width: 100%; height: 360px; object-fit: cover; border-radius: 12px; margin-bottom: 24px; }
+.article p { margin-bottom: 16px; line-height: 1.8; }
+.article .badge { display: inline-block; }
+.disclaimer { background: var(--accent); padding: 14px; border-radius: 8px; font-size: .9rem !important; margin-top: 30px; }
+
+@media (max-width: 768px) {
+  .article h1 { font-size: 1.7rem; }
+  .article-img { height: 220px; }
+}
+.sources { margin-top: 24px; }
+.sources h3 { font-size: 1.1rem; margin-bottom: 8px; }
+.sources ul { padding-left: 20px; }
+.sources a { color: var(--secondary); text-decoration: underline; }
